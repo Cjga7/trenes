@@ -4,6 +4,16 @@ public class Reserva {
     String localizador;
     Date fechaEmision;
     Trayecto trayecto;
+
+    @Override
+    public String toString() {
+        return "Reserva{" +
+                "localizador='" + localizador + '\'' +
+                ", fechaEmision=" + fechaEmision +
+                ", trayecto=" + trayecto +
+                '}';
+    }
+
     public Reserva(){
 
     }

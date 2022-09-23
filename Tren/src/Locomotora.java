@@ -1,16 +1,22 @@
 public class Locomotora {
     int codigo;
     Tren tren;
-    public Locomotora(int i){
+    public Locomotora(){
 
     }
 
-    public Locomotora(int codigo, Tren tren) {
+    @Override
+    public String toString() {
+        return "Locomotora{" +
+                "codigo=" + codigo +
+                ", tren=" + tren +
+                '}';
+    }
+
+    public Locomotora(int codigo) {
         this.codigo = codigo;
         this.tren = tren;
     }
 
-    public Locomotora() {
 
-    }
 }

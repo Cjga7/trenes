@@ -4,6 +4,17 @@ public class Tramo {
     Ciudad origen;
     Ciudad destino;
     Date horaSalida;
+
+    @Override
+    public String toString() {
+        return "Tramo{" +
+                "origen=" + origen +
+                ", destino=" + destino +
+                ", horaSalida=" + horaSalida +
+                ", duracion=" + duracion +
+                '}';
+    }
+
     Double duracion;
     public Tramo(){
 
